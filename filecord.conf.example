@@ -1,0 +1,10 @@
+# Filecord Configuration File
+# Copy this to filecord.conf and update with your settings
+
+# Discord webhook URL (required)
+# Get this from Discord Server Settings > Integrations > Webhooks
+discord_webhook = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
+
+# Directory to watch for new files (required)
+# All subdirectories will be monitored recursively
+watch_dir = "/path/to/watch"
