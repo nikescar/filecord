@@ -4,6 +4,9 @@ on:
       - v*
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 env:
   RUST_VERSION: 1.86.0
   BIN_NAME: "filecord"
